@@ -1,0 +1,50 @@
+html {
+    font-size: 1.2rem;
+  }
+@media(min-width:540px) {
+    html {
+      font-size: 1.1rem;
+    }
+  }
+  @media(min-width:768px) {
+    html {
+        font-size: 1.4rem;
+      }
+    
+  }
+  @media(min-width:992px) {
+    html {
+        font-size: 1.2rem;
+      }
+}
+@media(min-width:1200px) {
+    html {
+        font-size: 1.3rem;
+      }
+}
+.background-color{
+    background-color: #ffdb4d;
+    
+}
+.button-option-hover_YT:hover{
+  background-color: red;
+}
+.button-option-hover_YT
+{
+  transition: ease 0.7s;
+}
+.button-option-hover_YT a{
+  color: black;
+  text-decoration: none;
+}
+.button-option-hover_FB
+{
+  transition: ease 0.7s;
+}
+.button-option-hover_FB:hover{
+  background-color: blue;
+}
+.button-option-hover_FB a{
+  color: black;
+  text-decoration: none;
+}
