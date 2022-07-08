@@ -11,35 +11,47 @@
     <link rel="stylesheet" href="plik.css">
   </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-    <a class="navbar-brand p-2 " href="index.html">
-        <img src="image/logo_pasieka_bzdula.svg" id="size_logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav text-center">
-        <li class="nav-item active">
-       
-          <a class="nav-link " href="index.html">Start </a>
-        
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="historia.html">Historia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="oferta.html">Oferta</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="kontakt.html">Kontakt</a>
-          </li>
-        
-      </ul>
-    </div>
-  </nav>
+   <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand  " href="index.html">
+            <img src="image/logo_pasieka_bzdula.svg" id="size_logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item active">
+           
+              <a class="nav-link " href="index.html">Start </a>
+            
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="oferta.html">Oferta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+            
+          </ul>
+        </div>
+      </nav>
 
         <div class="container-fluid background-color_concact">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5 class="text-center">ADRES DO KORESPONDENCJI:</h5>
+                    Pasieka Bzduła <br>
+                    Mędrzechów 277, 33-221<br>
+
+                    Tel: 537 342 921<br>
+
+                    E-mail: pasiekabzdula@gmail.com <br><br>
+
+            </div>
+            <div class="col-sm-12">
           <form class="contact-form" action="contactform.php" method="post">
             <p>Formularz kontaktowy</p>
             <input type="text" id="name" placeholder="Twoje imie" required>
@@ -47,8 +59,15 @@
             <input type="text" id="phone" placeholder="Numer telefonu" required>
             <textarea name="message" rows="5" placeholder="Jak mogę Ci pomóc ?"></textarea>
             <button type="submit" name="submit">Wyślij</button>
-          </form>
+          </form><br>
+
+                </div>
+            </div>
         </div>
+    
+    <footer>
+		<p class="text-center color_footer">© Copyright 2021 Pasieka Bzduła Mędrzechów. Wszelkie prawa są zastrzeżone.</p>
+	</footer>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
